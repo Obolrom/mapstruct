@@ -102,6 +102,7 @@ class AbstractBaseBuilder<B extends AbstractBaseBuilder<B>> {
                 .forgedMethod( forgedMethod )
                 .returnTypeBuilder( builderType )
                 .mappingContext( ctx )
+                .versionInformation( versionInformation )
                 .build();
         }
 
